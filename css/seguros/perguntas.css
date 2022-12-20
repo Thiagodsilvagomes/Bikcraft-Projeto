@@ -1,0 +1,45 @@
+.perguntas{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.perguntas h2{
+  margin-bottom: 60px;
+}
+
+.perguntas dl > div{
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.perguntas dl > div:nth-child(odd){
+  background: #EFF5F5;
+}
+
+.perguntas dt::before{
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background: #FF3300;
+  margin-right: 8px;
+  margin-bottom: 3px;
+}
+
+.perguntas dd{
+  padding-left: 20px;
+  padding-top: 16px;
+  max-width: 80ch;
+}
+
+@media (max-width: 800px){
+  .perguntas{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .perguntas h2{
+    margin-bottom: 40px;
+  }
+}
+
