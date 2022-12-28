@@ -44,4 +44,7 @@
 
 
 /* orçamento  */
-@import "./orcamento/orcamento.css"
+@import "./orcamento/orcamento.css";
+
+/* animação  */
+@import "./utilidades/animação.css"
